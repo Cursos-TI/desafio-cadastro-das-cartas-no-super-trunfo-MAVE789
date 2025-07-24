@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-   char estado1, estado2;
+    char estado1, estado2;
     char cod1[3], cod2[3];
     char cidade1[20], cidade2[20];
     int pop1, pop2, pontot1, pontot2;
@@ -15,12 +15,12 @@ int main(){
     printf("Digite o codigo da carta 1: ");
     scanf("%s", cod1);
     printf("digite o nome da cidade da carta 1: ");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
     printf("digite a população da carta 1: ");
     scanf("%d", &pop1);
     printf("Qual a Area da carta 1: ");
     scanf("%f", &area1);
-    printf("Qual o pib da cidade: ");
+    printf("Qual o pib da cidade em bilhões de R$: ");
     scanf("%f", &pib1);
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontot1);
@@ -33,12 +33,12 @@ int main(){
     printf("Digite o codigo da carta 2: ");
     scanf("%s", cod2);
     printf("digite o nome da cidade da carta 2: ");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade2);
     printf("digite a população da carta 2: ");
     scanf("%d", &pop2);
     printf("Qual a Area da carta 1: ");
     scanf("%f", &area2);
-    printf("Qual o pib da cidade: ");
+    printf("Qual o pib da cidade em bilhões de R$: ");
     scanf("%f", &pib2);
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontot2);
@@ -70,7 +70,5 @@ int main(){
     printf("Densidade populacional: %.2f \n",densidade2);
     printf("PIB per capita: %.2f \n",percapita2);
 
-
-    return 0;
-    
+     return 0;
 }
