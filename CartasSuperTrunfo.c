@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    char estado1, estado2;
+   char estado1, estado2;
     char cod1[3], cod2[3];
     char cidade1[20], cidade2[20];
     int pop1, pop2, pontot1, pontot2;
@@ -13,7 +13,7 @@ int main(){
     printf("digite o estado da carta 1 estado: ");
     scanf("%c", &estado1);
     printf("Digite o codigo da carta 1: ");
-    scanf("%s", &cod1);
+    scanf("%s", cod1);
     printf("digite o nome da cidade da carta 1: ");
     scanf("%s", &cidade1);
     printf("digite a população da carta 1: ");
@@ -31,7 +31,7 @@ int main(){
     printf("digite o estado da carta 2 estado: ");
     scanf(" %c", &estado2);
     printf("Digite o codigo da carta 2: ");
-    scanf("%s", &cod2);
+    scanf("%s", cod2);
     printf("digite o nome da cidade da carta 2: ");
     scanf("%s", &cidade2);
     printf("digite a população da carta 2: ");
@@ -69,5 +69,8 @@ int main(){
     printf("Pontos turisticos: %d \n",pontot2);
     printf("Densidade populacional: %.2f \n",densidade2);
     printf("PIB per capita: %.2f \n",percapita2);
+
+
+    return 0;
     
 }
