@@ -82,7 +82,7 @@ int main(){
     printf("Area: %d\n", area1 > area2);
     printf("PIB: %d\n", pib1 > pib2);
     printf("Pontos Turisticos: %d\n", pontot1 > pontot2);
-    printf("Densidade Populacional: %d\\n", densidade1 < densidade2);
+    printf("Densidade Populacional: %d \n", densidade1 < densidade2);
     printf("PIB per capita: %d\n", percapita1 > percapita2);
     printf("Super Poder: %d\n", superpoderA > superpoderB);
 
