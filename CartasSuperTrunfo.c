@@ -2,7 +2,7 @@
 
 int main(){
     char estado1, estado2;
-    char cod1[3], cod2[3];
+    char cod1[4], cod2[4];
     char cidade1[20], cidade2[20];
     int  pontot1, pontot2;
     float area1, area2, pib1, pib2;
@@ -15,7 +15,7 @@ int main(){
     printf("digite o estado da carta 1 estado: ");
     scanf("%c", &estado1);
     printf("Digite o codigo da carta 1: ");
-    scanf("%s", cod1);
+    scanf("%3s", cod1);
     printf("digite o nome da cidade da carta 1: ");
     scanf("%s", cidade1);
     printf("digite a população da carta 1: ");
@@ -33,7 +33,7 @@ int main(){
     printf("digite o estado da carta 2 estado: ");
     scanf(" %c", &estado2);
     printf("Digite o codigo da carta 2: ");
-    scanf("%s", cod2);
+    scanf("%3s", cod2);
     printf("digite o nome da cidade da carta 2: ");
     scanf("%s", cidade2);
     printf("digite a população da carta 2: ");
@@ -74,7 +74,7 @@ int main(){
 
     //DUELO DAS CARTAS
     superpoderA = (float) pop1 + area1 + pib1 + pontot1 + percapita1 + ( 1 / densidade1);
-    superpoderB = (float) pop2 + area2 + pib2 + pontot2 + percapita2 + ( 1 / densidade2);
+    superpoderB =(float) pop2 + area2 + pib2 + pontot2 + percapita2 + ( 1 / densidade2);
 
     printf("SE O RESULTADO FOR '1' A CARTA 1 VENCEU SE FOR '0' A CARTA 2 VENCEU.\n\n");
 
@@ -82,9 +82,9 @@ int main(){
     printf("Area: %d\n", area1 > area2);
     printf("PIB: %d\n", pib1 > pib2);
     printf("Pontos Turisticos: %d\n", pontot1 > pontot2);
-    printf("Densidade Populacional: %d\n", densidade1 > densidade2);
+    printf("Densidade Populacional: %d\n", densidade1 < densidade2);
     printf("PIB per capita: %d\n", percapita1 > percapita2);
-    printf("Super Poder: %d\n", superpoderA > superpoderB); 
+    printf("Super Poder: %d\n", superpoderA > superpoderB);
 
      return 0;
 }
