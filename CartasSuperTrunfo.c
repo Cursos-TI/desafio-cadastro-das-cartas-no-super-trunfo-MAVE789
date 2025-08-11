@@ -74,7 +74,7 @@ int main(){
 
     //DUELO DAS CARTAS
     superpoderA = (float) pop1 + area1 + pib1 + pontot1 + percapita1 + ( 1 / densidade1);
-    superpoderB =(float) pop2 + area2 + pib2 + pontot2 + percapita2 + ( 1 / densidade2);
+    superpoderB = (float) pop2 + area2 + pib2 + pontot2 + percapita2 + ( 1 / densidade2);
 
     printf("SE O RESULTADO FOR '1' A CARTA 1 VENCEU SE FOR '0' A CARTA 2 VENCEU.\n\n");
 
