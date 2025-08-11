@@ -84,7 +84,7 @@ int main(){
     printf("Pontos Turisticos: %d\n", pontot1 > pontot2);
     printf("Densidade Populacional: %d\n", densidade1 > densidade2);
     printf("PIB per capita: %d\n", percapita1 > percapita2);
-    printf("Super Poder: %d\n", superpoderA < superpoderB);
+    printf("Super Poder: %d\n", superpoderA > superpoderB);
 
      return 0;
 }
