@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
- char estado1, estado2;
+    char estado1, estado2;
     char cod1[3], cod2[3];
     char cidade1[20], cidade2[20];
     int  pontot1, pontot2;
@@ -53,7 +53,7 @@ int main(){
     printf("Estado: %c \n", estado1);
     printf("Codigo: %c%s\n",estado1,cod1);
     printf("Nome da cidade: %s\n",cidade1);
-    printf("População: %d\n",pop1);
+    printf("População: %lu\n",pop1);
     printf("Area: %.2f Km2 \n",area1);
     printf("PIB : %.2f Bilhões de Reais \n",pib1);
     printf("Pontos turisticos: %d \n",pontot1);
@@ -65,7 +65,7 @@ int main(){
     printf("Estado: %c \n", estado2);
     printf("Codigo: %c%s\n",estado2,cod2);
     printf("Nome da cidade: %s\n",cidade2);
-    printf("População: %d\n",pop2);
+    printf("População: %lu\n",pop2);
     printf("Area: %.2f Km2 \n",area2);
     printf("PIB : %.2f Bilhões de Reais \n",pib2);
     printf("Pontos turisticos: %d \n",pontot2);
@@ -84,7 +84,7 @@ int main(){
     printf("Pontos Turisticos: %d\n", pontot1 > pontot2);
     printf("Densidade Populacional: %d\n", densidade1 > densidade2);
     printf("PIB per capita: %d\n", percapita1 > percapita2);
-    printf("Super Poder: %d\n", superpoderA > superpoderB);
+    printf("Super Poder: %d\n", superpoderA > superpoderB); 
 
      return 0;
 }
